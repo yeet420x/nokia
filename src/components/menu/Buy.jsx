@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import '../../styles/Buy.css';
 
 function Buy({ onBack }) {
-  const buyUrl = "https://pump.fun/coin/6GaLZa1XU8NYJoDgqzKhkJuy5VjiBybZCxbTLUKxpump";
+  const buyUrl = "https://pump.fun/";
 
   useEffect(() => {
     window.open(buyUrl, '_blank');
