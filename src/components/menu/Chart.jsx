@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import '../../styles/Chart.css';
 
 function Chart({ onBack }) {
-  const chartUrl = "https://dexscreener.com/solana/6GaLZa1XU8NYJoDgqzKhkJuy5VjiBybZCxbTLUKxpump";
+  const chartUrl = "https://dexscreener.com";
 
   useEffect(() => {
     window.open(chartUrl, '_blank');
