@@ -4,8 +4,8 @@ import '../../styles/Socials.css';
 
 function Socials({ onBack, type }) {
   const urls = {
-    X: "https://x.com/3310onsol",
-    Telegram: "https://t.me/3310onsol"
+    X: "https://x.com/",
+    Telegram: "https://t.me/"
   };
 
   useEffect(() => {
