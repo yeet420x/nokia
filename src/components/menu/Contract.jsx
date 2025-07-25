@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Contract({ onBack }) {
   const [copyStatus, setCopyStatus] = useState('');
-  const contractAddress = "EPtsEr77iEX5fhRkHSQaSGGuBPd5cjT5pbo6Vvu5pump";
+  const contractAddress = "Dex";
 
   const handleCopy = async () => {
     try {
