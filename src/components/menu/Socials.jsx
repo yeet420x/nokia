@@ -4,7 +4,7 @@ import '../../styles/Socials.css';
 
 function Socials({ onBack, type }) {
   const urls = {
-    X: "x com",
+    X: "https://x.com/solnokia3310",
     Telegram: "https://t.me/"
   };
 
